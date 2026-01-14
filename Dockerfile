@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.29.4-trixie
 LABEL ifeng fscarmen mack-a ygkkk
 EXPOSE 80
 USER root
